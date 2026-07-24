@@ -34,10 +34,16 @@ Full brief: [brief.md](brief.md)
 
 ## What was delivered
 
-_Pending — waiting on the user's real recurring tasks to build the audit table._
+- Workflow audit with 15 real recurring tasks, classified and with rationale:
+  [workflow-audit.md](workflow-audit.md).
+- Three target tasks for FL-02 through FL-04 with "done well" definitions —
+  included in `workflow-audit.md`.
+- Pending: Claude/ChatGPT/Anthropic Academy accounts, first module of AI
+  Fluency: Framework & Foundations, and the configured Claude Project with
+  custom instructions + screenshot.
 
 ## Deliverable links
 
-- Workflow audit: _(pending)_
+- Workflow audit: [workflow-audit.md](workflow-audit.md)
 - Claude Project screenshot: _(pending)_
-- Three target tasks + success definitions: _(pending)_
+- Three target tasks + success definitions: in [workflow-audit.md](workflow-audit.md)
