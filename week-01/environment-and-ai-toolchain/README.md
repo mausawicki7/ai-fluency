@@ -39,4 +39,4 @@ Full brief: [brief.md](brief.md)
 ## Deliverable links
 
 - Repo: https://github.com/mausawicki7/ai-fluency
-- Screenshot: taken (kept locally, not committed to the repo)
+- Screenshot: [claude-code-screenshot.png](claude-code-screenshot.png)
