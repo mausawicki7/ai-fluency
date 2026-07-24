@@ -38,12 +38,17 @@ Full brief: [brief.md](brief.md)
   [workflow-audit.md](workflow-audit.md).
 - Three target tasks for FL-02 through FL-04 with "done well" definitions —
   included in `workflow-audit.md`.
-- Pending: Claude/ChatGPT/Anthropic Academy accounts, first module of AI
-  Fluency: Framework & Foundations, and the configured Claude Project with
-  custom instructions + screenshot.
+- Claude, ChatGPT, and Anthropic Academy accounts set up (screenshots below).
+- Anthropic Academy: "AI Fluency: Framework & Foundations" completed in full
+  (certificate issued, score 10/10) — exceeds the "at least the first module"
+  requirement.
+- Pending: Claude Project with custom instructions + screenshot.
 
 ## Deliverable links
 
 - Workflow audit: [workflow-audit.md](workflow-audit.md)
-- Claude Project screenshot: _(pending)_
 - Three target tasks + success definitions: in [workflow-audit.md](workflow-audit.md)
+- Claude account: [claude-account.png](claude-account.png)
+- ChatGPT account: [chatgpt-account.png](chatgpt-account.png)
+- Anthropic Academy progress: [anthropic-academy-progress.png](anthropic-academy-progress.png)
+- Claude Project screenshot: _(pending)_
