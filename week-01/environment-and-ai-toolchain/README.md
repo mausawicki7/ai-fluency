@@ -29,10 +29,14 @@ Full brief: [brief.md](brief.md)
   project's private root `CLAUDE.md` stays out of git by design; see `capstone/README.md`
   for the split.
 - First three commits made in Conventional Commits format (see Git history).
-- Pending: screenshot of Claude Code completing a task in this environment, and
-  README critique + one applied improvement.
+- Claude Code critiqued the root `README.md` (5 issues: no setup instructions,
+  no license mention, no author/program context, fragile "current week" link,
+  language mix) and applied the highest-impact fix — added author/program
+  context to the opening line (see `docs: critique root README and add repo URL
+  to week-01 assignment` commit).
+- Screenshot of Claude Code completing a task in this environment: done.
 
 ## Deliverable links
 
 - Repo: https://github.com/mausawicki7/ai-fluency
-- Screenshot: _(pending)_
+- Screenshot: taken (kept locally, not committed to the repo)
