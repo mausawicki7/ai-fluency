@@ -1,15 +1,14 @@
 # AI Fluency
 
-Repositorio de entregas de Mauricio Sawicki para un programa de 9 semanas con dos
-tracks paralelos:
+Deliverables repository by Mauricio Sawicki for a 9-week program with two parallel tracks:
 
-- **AI Fluency** — portfolio, marca personal, prompting, agentes, automatización.
-- **Front-end AI Engineering** — React, desarrollo asistido por IA, accesibilidad, shipping.
+- **AI Fluency** — portfolio, personal brand, prompting, agents, automation.
+- **Front-end AI Engineering** — React, AI-assisted dev, accessibility, shipping.
 
-## Estado actual
+## Current status
 
-En curso: [week-01](week-01/README.md)
+In progress: [week-01](week-01/README.md)
 
 ## Capstone
 
-El proyecto que atraviesa todo el programa vive en [capstone/](capstone/README.md).
+The through-line project built across the program lives in [capstone/](capstone/README.md).
