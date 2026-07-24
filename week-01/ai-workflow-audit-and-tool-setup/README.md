@@ -42,7 +42,8 @@ Full brief: [brief.md](brief.md)
 - Anthropic Academy: "AI Fluency: Framework & Foundations" completed in full
   (certificate issued, score 10/10) — exceeds the "at least the first module"
   requirement.
-- Pending: Claude Project with custom instructions + screenshot.
+- Claude Project ("Fluency AI") created with custom instructions covering who
+  I am, tone preferences, and current goals (screenshot below).
 
 ## Deliverable links
 
@@ -51,4 +52,4 @@ Full brief: [brief.md](brief.md)
 - Claude account: [claude-account.png](claude-account.png)
 - ChatGPT account: [chatgpt-account.png](chatgpt-account.png)
 - Anthropic Academy progress: [anthropic-academy-progress.png](anthropic-academy-progress.png)
-- Claude Project screenshot: _(pending)_
+- Claude Project screenshot: [claude-project-instructions.png](claude-project-instructions.png)
