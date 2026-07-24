@@ -1,6 +1,7 @@
 # AI Fluency
 
-Repositorio de entregas del programa de 9 semanas, con dos tracks paralelos:
+Repositorio de entregas de Mauricio Sawicki para un programa de 9 semanas con dos
+tracks paralelos:
 
 - **AI Fluency** — portfolio, marca personal, prompting, agentes, automatización.
 - **Front-end AI Engineering** — React, desarrollo asistido por IA, accesibilidad, shipping.

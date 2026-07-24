@@ -34,5 +34,5 @@ Full brief: [brief.md](brief.md)
 
 ## Deliverable links
 
-- Repo: _(add GitHub URL once pushed)_
+- Repo: https://github.com/mausawicki7/ai-fluency
 - Screenshot: _(pending)_
