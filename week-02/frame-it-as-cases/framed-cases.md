@@ -49,30 +49,33 @@ conversación.
 
 ## DefensaOS
 
-**Problema:** Un abogado penalista real tenía legajos de más de 3.000
-documentos — declaraciones, pericias, oficios, actas, prueba documental —
-que debía revisar a mano antes de cada audiencia. Es materialmente
-imposible leer y clasificar ese volumen en el tiempo que da un proceso
-penal. El resultado: llegaba a las audiencias sin el caso digerido, porque
-armar el mapa del expediente a mano se comía el tiempo que debería haber
-usado para pensar la estrategia.
+**Problema:** Una abogada penalista real tenía legajos de más de 3.000
+documentos — declaraciones, pericias, actas, audio y video de
+audiencias — que debía revisar a mano, con los tiempos que impone el
+proceso acusatorio de la provincia del Neuquén encima. Es materialmente
+imposible leer y clasificar ese volumen a tiempo. El resultado: llegaba a
+las audiencias sin el caso digerido, porque armar el mapa del expediente
+a mano se comía el tiempo que debería haber usado para pensar la
+estrategia de defensa.
 
-**Qué hice / decidí:** Construí el evidence-grouper, el módulo central de
-DefensaOS: un pipeline en TypeScript + Supabase + Trigger.dev que pagina el
-legajo completo, arma chunks, aplica guardas de integridad, y clasifica
-cada documento por categorías del dominio penal usando búsqueda semántica y
-modelos de lenguaje — no reglas fijas ni keywords. Tiene detección de jobs
-"stale" para cuando una corrida se cuelga. Todo el desarrollo lo hice en
-colaboración intensiva con Claude Code: diagnóstico de causa raíz antes de
-tocar código, una variable a la vez, decisiones documentadas en ADRs, y
-cada commit describiendo el estado real del sistema, incluido lo que queda
-pendiente.
+**Qué hice / decidí:** Construí Defensa OS Penal: un pipeline que hace
+OCR sobre PDFs e imágenes (Mistral), transcribe audio y video de
+audiencias con diarización (AssemblyAI), indexa todo con embeddings
+semánticos (pgvector, búsqueda híbrida) y corre 9 módulos de análisis con
+Claude Opus 4.7 — mapa de imputación, matriz de estafa, contradicciones,
+preguntas para audiencia, entre otros. Cada hallazgo tiene que traer una
+cita textual verificada contra el documento original (chequeo de
+similitud, tolerancia 5%) o queda etiquetado como `dato_no_acreditado` —
+el sistema no inventa lo que no puede citar. Documenté cada decisión
+técnica en ADRs (10 hasta ahora) y construí todo con Claude Code.
 
-**Resultado:** Lo que antes tomaba semanas de trabajo manual se convierte
-en un informe clasificado en unos clics. Validado en producción con un
-legajo real de ~1.870 documentos y más de 5.000 chunks.
+**Resultado:** Sistema entregado y en producción con la primera clienta
+paga (USD 900 cobrados, `PROD_READY=true` activo). Validado con un
+legajo real de 1.870 documentos y ~5.012 chunks — la corrida completa
+procesó todo, incluidos los audios y videos con testimonios de víctimas y
+testigos, sin recortes.
 
-**Estado:** en vivo.
+**Estado:** en vivo — cliente real pagando.
 
 ---
 

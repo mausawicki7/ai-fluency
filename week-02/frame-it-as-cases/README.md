@@ -25,6 +25,15 @@ AI output versus the edited version.
   input channel (WhatsApp) isn't connected yet. Fixed both the case copy
   and the [week-01 sitemap diagram](https://claude.ai/code/artifact/2a5466af-6bed-4a50-b821-bd67e0947217)
   to show InmoDesk as "en validación" instead of live.
+- Verified all three interview answers against the real repos
+  (`C:\Users\mausa\experiencia-elite-web`, `...\DefensaOS`,
+  `...\InmoDesk`) before finalizing copy. InmoDesk's claims held up
+  exactly as interviewed. DefensaOS turned out understated: the real
+  README shows a paid, delivered MVP (client #1, USD 900, prod flag
+  active) with OCR + audio/video transcription + 9 Claude-Opus analysis
+  modules with citation verification against hallucination — stronger
+  proof of the claim than the original interview answers captured, so
+  the case and the sitemap diagram were rewritten with the real facts.
 - Full document: [framed-cases.md](framed-cases.md).
 - Voice card added to the Claude Project's standing instructions:
   [claude-project-voice-card.jpg](claude-project-voice-card.jpg).
