@@ -25,15 +25,19 @@ breaks.
   Claude Project custom instructions.
 - Full design doc: [pipeline-design.md](pipeline-design.md).
 
+## Runs
+
+| # | Source | Step 1-2 time | Step 3 time | Note |
+|---|---|---|---|---|
+| 1 | [Shi Heng Yi — "Enfócate en ti y guarda silencio"](https://www.youtube.com/watch?v=J9CiWjLRu2g) | 2:14 | ~15s | [run-1-note.md](run-1-note.md) / [raw extraction](run-1-notebooklm-extraction.md) |
+
 ## Pending
 
-1. Create the `Podcast Research Notes` Claude Project with the
-   instructions in the design doc.
-2. Run the pipeline on 5 real episodes, timed.
-3. Time one manual pass (no AI) for a real time-saved comparison.
-4. Compile the walkthrough: 5 runs + outputs + honest failure points +
+1. Runs 2-5 with real episodes, timed the same way.
+2. Time one manual pass (no AI) for a real time-saved comparison.
+3. Compile the final walkthrough: all 5 runs + honest failure points +
    time accounting.
-5. Post to the track thread.
+4. Post to the track thread.
 
 ## Deliverable links
 
