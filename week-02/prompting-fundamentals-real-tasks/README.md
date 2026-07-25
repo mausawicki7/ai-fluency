@@ -26,20 +26,24 @@ distill a reusable template.
   read faster but hid the reasoning that made the alert trustworthy —
   fixed in the next iteration (step decomposition forces the reasoning
   before compressing to a color).
-- Final reusable template, no personal context required to use it.
+- Cross-model comparison run for real: same final prompt + same data
+  pasted by hand (no MCP, so it's a fair comparison), run on ChatGPT —
+  raw output saved at [chatgpt-output.md](chatgpt-output.md). Structure
+  and diagnosis accuracy matched Claude's; the real divergence was in
+  root-cause assumption (ad-set/targeting vs. creative fatigue) with
+  neither model flagging that it was guessing.
+- Final reusable template updated after the comparison: now requires the
+  model to name what evidence is missing instead of silently picking one
+  explanation when a metric drop has more than one plausible cause.
 - Full log: [prompt-iteration-log.md](prompt-iteration-log.md).
 
 ## Pending (can't be done from here)
 
 1. **Anthropic Prompt Engineering Interactive Tutorial** (basics
    chapters) — external resource, has to be worked through directly.
-2. **Cross-model comparison** — the final prompt needs to actually run
-   in ChatGPT (real output, not simulated) so the comparison in the log
-   is honest. Paste the ChatGPT output back and I'll write the
-   tone/accuracy/structure/failure-point comparison against Claude's
-   output.
-3. Track thread post.
+2. Track thread post.
 
 ## Deliverable links
 
 - Prompt iteration log: [prompt-iteration-log.md](prompt-iteration-log.md)
+- ChatGPT raw output: [chatgpt-output.md](chatgpt-output.md)

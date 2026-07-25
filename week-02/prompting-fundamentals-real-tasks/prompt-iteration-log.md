@@ -232,14 +232,71 @@ Antes de responder, seguí este orden:
 4. Recién ahí armá la respuesta en 3 bloques: (1) semáforo por campaña
    con una frase de por qué, no el color solo, (2) la única acción que
    requiere hoy si hay alguna, (3) qué no tocar porque está funcionando.
+
+Si la causa de una caída admite más de una explicación (ej: creativo
+cansado vs. audiencia mal targeteada) y no tenés datos para descartar
+una, decilo explícitamente en vez de elegir una en silencio — nombrá
+qué dato te faltó para estar seguro.
 ```
+
+*(El último párrafo se agregó después de la comparación cross-model:
+Claude y ChatGPT diagnosticaron causas distintas para la misma caída de
+Córdoba — uno audiencia/entrega, el otro creativo — y ninguno avisó que
+estaba suponiendo. Sin ese dato, cualquiera de las dos "únicas acciones"
+podría ser la equivocada.)
 
 ---
 
 ## Comparación cross-model (Claude vs. ChatGPT)
 
-**Pendiente:** correr este prompt final en ChatGPT y pegar acá el
-output real, para comparar honestamente tono/precisión/estructura/
-puntos de falla contra la respuesta de Claude de arriba. No lo completo
-sin la corrida real — inventar la comparación rompería el punto del
-ejercicio.
+Mismo prompt final, mismos datos pegados a mano (sin MCP, para que sea
+comparación justa). Salida real de ChatGPT:
+
+> **1. Semáforo por campaña**
+> 🔴 Elite Córdoba — alerta real. El CTR cayó de 1,38% a 0,90%, una baja
+> aproximada del 35% contra su propio promedio de 7 días. Como el evento
+> es en 6 días, queda poco margen para recuperar volumen de ventas.
+> 🟢 Elite Bariloche — variación normal. El CPC subió apenas 8%, dentro
+> de su comportamiento habitual, y todavía faltan 19 días.
+>
+> **2. Única acción requerida hoy**
+> Renovar inmediatamente el creativo de Elite Córdoba, sin modificar
+> audiencias ni reconstruir la campaña. [incluye copy de anuncio
+> sugerido con gancho de urgencia y fecha]
+>
+> **3. Qué no tocar**
+> No tocaría Elite Bariloche. En Córdoba tampoco cambiaría presupuesto,
+> segmentación, objetivo ni estructura por ahora — el problema visible
+> está en la capacidad del anuncio para generar clics, no en la
+> audiencia o el costo de entrega.
+
+**Estructura:** idéntica — los dos respetaron el formato de 3 bloques al
+pie de la letra, y los dos hicieron el razonamiento (comparar contra el
+propio promedio de 7 días, citar el % de caída) antes de asignar el
+color, en vez de tirar un semáforo pelado. La disciplina de la
+descomposición en pasos sobrevivió el cambio de modelo.
+
+**Precisión:** idéntica en el diagnóstico — mismo 35% de caída en
+Córdoba, mismo "no tocar" en Bariloche, mismas cifras. Ninguno inventó
+un número.
+
+**Tono:** distinto. Claude quedó telegráfico ("Paso 1-2: ... Paso 3:
+..."), casi notas para uso interno. ChatGPT escribió más narrado, con
+negritas tipo informe para cliente, y agregó un copy de anuncio real sin
+que se lo pidiera explícitamente — se excedió del formato pedido (el
+prompt pedía "la única acción", no un borrador de creativo).
+
+**El punto de falla real — divergencia de diagnóstico:** acá es donde
+importa. Los dos coinciden en que Córdoba es la alerta, pero asumen
+causas distintas sin decir que están asumiendo. Claude recomienda
+"pausar el ad set de peor CTR y redistribuir presupuesto" — un
+diagnóstico de segmentación/entrega, sin explicar por qué descarta que
+sea un problema de creativo. ChatGPT diagnostica fatiga de creativo
+("la capacidad del anuncio para generar clics") y lo dice explícito, con
+más razonamiento auditable que Claude en ese punto — pero tampoco tiene
+evidencia real para descartar que sea un tema de audiencia. Ninguno de
+los dos prompts (ni el mío) le pidió al modelo que aclare qué evidencia
+le falta para distinguir "creativo cansado" de "audiencia mal
+targeteada" — los dos modelos rellenaron ese hueco con una suposición
+distinta y ninguno avisó que estaba suponiendo. Ese es el hueco real del
+template, no una diferencia de calidad entre modelos.
