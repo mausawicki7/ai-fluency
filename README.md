@@ -7,7 +7,7 @@ Deliverables repository by Mauricio Sawicki for a 9-week program with two parall
 
 ## Current status
 
-In progress: [week-01](week-01/README.md)
+In progress: [week-04](week-04/README.md)
 
 ## Capstone
 

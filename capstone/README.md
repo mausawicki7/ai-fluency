@@ -1,7 +1,13 @@
 # Capstone
 
-The through-line project built across the program. Code lives in `src/` as it's
-added, starting week 3 with the deployed skeleton.
+The through-line project built across the program: Mauricio's personal
+portfolio site. React + Vite (Node), deployed to GitHub Pages via
+[.github/workflows/deploy-capstone.yml](../.github/workflows/deploy-capstone.yml).
+Built on the [proof statement](../week-01/what-are-you-proving/proof-statement.md),
+[sitemap](../week-01/draw-the-path-portfolio-sitemap/), [case studies](../week-02/frame-it-as-cases/framed-cases.md),
+[identity kit](../week-03/decide-once-identity-kit/), and
+[content map](../week-03/the-through-line/through-line.md) from earlier
+weeks.
 
 Rules/conventions for AI assistants working here: [CLAUDE.md](CLAUDE.md).
 
