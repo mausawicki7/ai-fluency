@@ -35,16 +35,18 @@ breaks.
 | 4 | [Marcus Elevation Taylor — "Debo continuar"](https://www.youtube.com/watch?v=qLHnu16XOaY) | 0:50 | ~15s | [run-4-note.md](run-4-note.md) / [raw extraction](run-4-notebooklm-extraction.md) |
 | 5 | [Coach Pain — "Cuando duele"](https://www.youtube.com/watch?v=6Di3pJGL2y4) | 0:38 | ~15s | [run-5-note.md](run-5-note.md) / [raw extraction](run-5-notebooklm-extraction.md) |
 
-All 5 runs done. 5/5 completed end to end, no failures.
+All 5 runs done, 5/5 completed end to end, no failures. Manual
+baseline timed for real: 10:00 for one note by hand, vs. ~1:23 average
+per note through the pipeline (~86% time saved, including setup cost).
+Full accounting and honest failure points in
+[walkthrough.md](walkthrough.md).
 
 ## Pending
 
-1. Time one manual pass (no AI) for a real time-saved comparison.
-2. Compile the final walkthrough: all 5 runs + honest failure points +
-   time accounting.
-3. Post to the track thread.
+1. Post to the track thread.
 
 ## Deliverable links
 
 - Pipeline design: [pipeline-design.md](pipeline-design.md)
-- Walkthrough with the 5 runs: _(pending)_
+- Walkthrough with all 5 runs, time accounting, failure points:
+  [walkthrough.md](walkthrough.md)
