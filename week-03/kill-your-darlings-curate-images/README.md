@@ -35,14 +35,28 @@ rejection note.
   column before saving; the unredacted original was deleted, never
   committed. Details in [image-list.md](image-list.md#received).
 
+- 3 hero texture options received, same prompt iterated. Kept
+  [hero-v2-keeper.png](hero-v2-keeper.png) (annotations balanced across
+  all 4 corners, center clear for the headline). Rejected
+  [hero-v1-rejected-unbalanced.png](hero-v1-rejected-unbalanced.png)
+  (annotations only in 2 diagonal corners — reads as accidental) and
+  [hero-v3-rejected-busy.png](hero-v3-rejected-busy.png) (best-looking
+  in isolation, but the accent stops being calm and would compete with
+  the headline instead of framing it). Full reasoning:
+  [curation-notes.md](curation-notes.md).
+
+## Final image set (the keepers)
+
+- [elite-hero.jpg](elite-hero.jpg)
+- [inmodesk-dashboard.jpg](inmodesk-dashboard.jpg)
+- [defensaos-panel-redacted.jpg](defensaos-panel-redacted.jpg)
+- [hero-v2-keeper.png](hero-v2-keeper.png)
+
 ## Pending
 
-1. 2-3 generated hero texture options from Mau, same prompt iterated.
-2. Curation pass once those land: pick the keeper hero texture, write
-   the rejection note (what didn't make it, why — genuine judgment, not
-   "I liked this one").
-3. Post to the track thread.
+1. Post to the track thread.
 
 ## Deliverable links
 
 - Image list: [image-list.md](image-list.md)
+- Curation notes: [curation-notes.md](curation-notes.md)
