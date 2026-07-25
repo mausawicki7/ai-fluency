@@ -37,11 +37,12 @@ distill a reusable template.
   explanation when a metric drop has more than one plausible cause.
 - Full log: [prompt-iteration-log.md](prompt-iteration-log.md).
 
-## Pending (can't be done from here)
+- Anthropic Prompt Engineering Interactive Tutorial (basics chapters)
+  completed.
 
-1. **Anthropic Prompt Engineering Interactive Tutorial** (basics
-   chapters) — external resource, has to be worked through directly.
-2. Track thread post.
+## Pending
+
+1. Track thread post.
 
 ## Deliverable links
 
