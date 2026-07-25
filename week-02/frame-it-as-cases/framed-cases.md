@@ -70,7 +70,7 @@ el sistema no inventa lo que no puede citar. Documenté cada decisión
 técnica en ADRs (10 hasta ahora) y construí todo con Claude Code.
 
 **Resultado:** Sistema entregado y en producción con la primera clienta
-paga (USD 900 cobrados, `PROD_READY=true` activo). Validado con un
+paga (`PROD_READY=true` activo). Validado con un
 legajo real de 1.870 documentos y ~5.012 chunks — la corrida completa
 procesó todo, incluidos los audios y videos con testimonios de víctimas y
 testigos, sin recortes.

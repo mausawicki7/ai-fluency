@@ -1,13 +1,20 @@
+import { Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout.jsx'
+import Home from './pages/Home.jsx'
+import Work from './pages/Work.jsx'
+import Contact from './pages/Contact.jsx'
+import About from './pages/About.jsx'
+
 function App() {
   return (
-    <main>
-      <h1>Mauricio Sawicki</h1>
-      <p>
-        Construyo y lanzo sistemas de negocio con IA como socio de
-        ingeniería, no como autocompletado.
-      </p>
-      <a href="mailto:mau.sawicki@gmail.com">mau.sawicki@gmail.com</a>
-    </main>
+    <Routes>
+      <Route element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="work" element={<Work />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="about" element={<About />} />
+      </Route>
+    </Routes>
   )
 }
 
