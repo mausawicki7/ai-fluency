@@ -59,3 +59,17 @@ Please check back at a later date. Ad account ID: 446362718218365
 Left in on purpose: it's proof the call actually hit Meta's live
 infrastructure rather than returning a canned response — a fake demo
 doesn't produce a real rollout error.
+
+## Visual evidence
+
+Re-ran the same queries in claude.ai (where connector tool calls
+render as visible UI, unlike this session's client):
+
+- [mcp-tool-call-permission.jpg](mcp-tool-call-permission.jpg) — the
+  permission dialog before the call, showing "Claude quiere usar
+  `ads_insights_performance_trend` de Meta Ads" with the actual request
+  parameters (ad_account_id, etc.) — proof this is a real tool call,
+  not chat text.
+- [mcp-tool-call-result.jpg](mcp-tool-call-result.jpg) — the "Meta Ads
+  · ads_insights_performance_trend" result chip, followed by the real
+  answer (18 accounts, real CPR trend numbers for Elite's ad sets).

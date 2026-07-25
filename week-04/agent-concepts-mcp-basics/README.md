@@ -25,7 +25,10 @@ primitives, one real connector run three times on live tasks, a
   accounts, a real performance-trend analysis on Elite's Córdoba ads,
   and a real campaign/spend list — plus one real API error left in as
   evidence the calls hit live infrastructure, not a canned demo.
-  Evidence: [mcp-evidence.md](mcp-evidence.md).
+  Evidence: [mcp-evidence.md](mcp-evidence.md), with visual proof
+  ([mcp-tool-call-permission.jpg](mcp-tool-call-permission.jpg),
+  [mcp-tool-call-result.jpg](mcp-tool-call-result.jpg)) from re-running
+  the same queries in claude.ai, where connector calls render visibly.
 - **Explainer** (794 words): [explainer.md](explainer.md).
 
 ## Pending
