@@ -63,17 +63,23 @@ The pressure-test caught two real problems:
    to a secondary/footer link instead of a required step — 2 clicks to the
    action instead of 3.
 
-These changes aren't applied to the sitemap table below yet — recorded here
-as the required next iteration.
+Applied to the sitemap below and to the [diagram](https://claude.ai/code/artifact/2a5466af-6bed-4a50-b821-bd67e0947217).
 
-## Sitemap
+## Sitemap (revised after the pressure-test)
+
+Main path — 2 clicks to the action:
 
 | # | Page | Content | Why it earns its place |
 |---|---|---|---|
 | 1 | Home | Headline = the claim, one proof line, single CTA ("Hablemos") | No claim to believe without it |
-| 2 | Work | Elite / DefensaOS / InmoDesk — problem → what was built → stack → status | Only page that proves the claim instead of restating it |
-| 3 | About | How I work (AI-native, solo, shipping pace) — not a bio | Answers "why you, not a 5-person team" before it's asked |
-| 4 | Contact | One path: email or call, no long form | The action defined in the proof statement |
+| 2 | Work | Elite / DefensaOS / InmoDesk — problem → what was built → stack → **live now** (link, not "completed") | Only page that proves the claim instead of restating it — and now proves it's alive, not built once |
+| 3 | Contact | One path: email or call + a time/cost anchor ("typical projects: X weeks") + a one-line answer to "what about support later" | Closes the solo + AI-native risk objection right before the ask |
+
+Secondary — optional, footer/nav link, not a required step:
+
+| Page | Content | Why it's optional |
+|---|---|---|
+| About | Every section answers a specific objection ("I work alone" = why you don't need a 5-person team), not a bio | Depth for whoever wants more — nobody has to pass through it to reach Contact |
 
 ## Claude Project setup
 
