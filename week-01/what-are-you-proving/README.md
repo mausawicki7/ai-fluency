@@ -32,9 +32,13 @@ Full brief: [brief.md](brief.md)
 
 - Proof statement drafted through an interview process (Claude pushed back on
   an initial claim that was too generic — "developing web systems" — and on
-  having two competing actions instead of one), converging on a claim that
-  explicitly ties to the user's actual differentiated work: e-commerce
-  automation with AI/MCP: [proof-statement.md](proof-statement.md).
+  having two competing actions instead of one), then revised again after
+  checking the claim against actual shipped work (`cases.md`): the original
+  "e-commerce automation" framing didn't match the real projects (events,
+  legal, real estate — not e-commerce), and the "AI running in production"
+  framing overstated it (AI is the build method, not a live end-user
+  feature, in these projects). Converged on a claim about shipping
+  production systems AI-natively: [proof-statement.md](proof-statement.md).
 - Pending: post the statement to the track thread.
 
 ## Deliverable links

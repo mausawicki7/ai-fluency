@@ -2,14 +2,15 @@
 
 ## Statement
 
-I can automate e-commerce operational systems and workflows using AI (agents,
-MCP, integrations) so businesses produce more with the same team. This is
-built for a business owner who's starting to realize AI can improve every
-workflow in their company — someone who sees the shift coming but doesn't yet
-know how to execute it. The one action I want them to take after seeing this
-portfolio: hire me directly.
+I can build and ship full production systems for business operations (web
+platforms, internal tools, CRMs) working AI-native end to end — using AI as
+an engineering partner across the whole lifecycle, not just autocomplete.
+This is built for a business owner who needs a working system built and
+live now, not in six months with a big team. The one action I want them to
+take after seeing this portfolio: hire me directly.
 
 ## Why this needs to exist
 
-A CV says I can code; it doesn't show that I'm already running AI in
-production to solve real e-commerce problems today, not in theory.
+A CV says I know React/Supabase; it doesn't show that I already have real
+systems in production (events, legal, real estate) that I built and
+deployed solo, at a pace a traditional team can't match.
