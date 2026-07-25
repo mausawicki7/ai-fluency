@@ -29,17 +29,17 @@ one real person's reaction, an honest "still ugly" list.
   Live at **https://mausawicki7.github.io/ai-fluency/**.
 - Honest "still ugly" list: [still-ugly.md](still-ugly.md).
 
+- Visually confirmed live by Mau (all pages/nav working).
+- Real person reaction collected — unfiltered, not softened: didn't
+  like the design, thought the content was thin, called it "very
+  novice." Full note: [real-person-feedback.md](real-person-feedback.md).
+
 ## Pending
 
-1. Mau to visually confirm all 4 pages/nav on the live site (browser
-   automation isn't connecting reliably this session).
-2. Send the live link to one real person, ideally in the target field,
-   and capture their reaction — what they saw, what confused them,
-   whether the work landed.
-3. Post to the track thread.
+1. Post to the track thread.
 
 ## Deliverable links
 
 - Live URL: **https://mausawicki7.github.io/ai-fluency/**
 - Still ugly list: [still-ugly.md](still-ugly.md)
-- Real person reaction: _(pending)_
+- Real person reaction: [real-person-feedback.md](real-person-feedback.md)
