@@ -36,9 +36,35 @@ Full brief: [brief.md](brief.md)
 - Work section case studies confirmed presentable (no NDA/client
   restrictions): Experiencia Elite, DefensaOS, InmoDesk. Islanegra left out
   — context unconfirmed.
-- Pending (manual steps, can't be done from the repo): Claude/ChatGPT/Gemini/
-  Perplexity accounts, creating the actual Claude Project, running the
-  pressure-test prompt, taking screenshots, posting to the track thread.
+- Claude Project created (`AI Fluency — Portfolio Build`) with the custom
+  instructions below saved:
+  [claude-project-instructions.jpg](claude-project-instructions.jpg).
+- Pressure-test run inside the project:
+  [pressure-test-conversation.jpg](pressure-test-conversation.jpg) /
+  full response: [pressure-test-response.md](pressure-test-response.md).
+- Pending: post everything to the track thread.
+
+## What I'd change (pass/revise requires this)
+
+The pressure-test caught two real problems:
+
+1. **About is the weak page.** As scoped ("how I work, AI-native, solo,
+   shipping pace") it risks being about me instead of about the client's
+   objection. The fix: rewrite each section as a direct answer to "why
+   don't I need a 5-person team for this" — if a section can't be rewritten
+   that way, cut it and fold the essential line into Home or Work.
+2. **Two missing pieces of evidence**: Work doesn't currently make it
+   explicit that each system is *live now*, not just "shipped once" — and
+   nothing addresses the risk objection of hiring a solo AI-native builder
+   ("what if I need a change in 3 months, what if you're unavailable —
+   is there support").
+3. **Order**: Home → Work → About → Contact assumes everyone needs About
+   before deciding. Better: **Home → Work → Contact**, with About demoted
+   to a secondary/footer link instead of a required step — 2 clicks to the
+   action instead of 3.
+
+These changes aren't applied to the sitemap table below yet — recorded here
+as the required next iteration.
 
 ## Sitemap
 
@@ -101,6 +127,7 @@ required by the pass/revise criteria.
 ## Deliverable links
 
 - Sitemap diagram: [artifact](https://claude.ai/code/artifact/2a5466af-6bed-4a50-b821-bd67e0947217)
-- Claude Project screenshot: _(pending)_
-- Pressure-test prompt + output screenshot: _(pending)_
+- Claude Project screenshot: [claude-project-instructions.jpg](claude-project-instructions.jpg)
+- Pressure-test prompt + output screenshot: [pressure-test-conversation.jpg](pressure-test-conversation.jpg)
+- Pressure-test full response: [pressure-test-response.md](pressure-test-response.md)
 - Track thread post: _(pending)_
