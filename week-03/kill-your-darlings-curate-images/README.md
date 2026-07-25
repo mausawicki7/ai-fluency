@@ -25,14 +25,23 @@ rejection note.
   prompt spec'd against the identity kit, rather than faked with
   code-generated CSS textures passed off as AI images.
 
+- 3 real screenshots received: [elite-hero.jpg](elite-hero.jpg),
+  [inmodesk-dashboard.jpg](inmodesk-dashboard.jpg),
+  [defensaos-panel-redacted.jpg](defensaos-panel-redacted.jpg).
+- The DefensaOS capture originally exposed a real active criminal case
+  (defendant's name, case number, prosecutor, real people's names in
+  the document list) — confidential third-party legal data that can't
+  go in a public repo. Redacted the case header and document-name
+  column before saving; the unredacted original was deleted, never
+  committed. Details in [image-list.md](image-list.md#received).
+
 ## Pending
 
-1. 3 real screenshots (Elite, DefensaOS, InmoDesk) from Mau.
-2. 2-3 generated hero texture options from Mau, same prompt iterated.
-3. Curation pass once both land: pick the keeper hero texture, write the
-   rejection note (what didn't make it, why — genuine judgment, not
+1. 2-3 generated hero texture options from Mau, same prompt iterated.
+2. Curation pass once those land: pick the keeper hero texture, write
+   the rejection note (what didn't make it, why — genuine judgment, not
    "I liked this one").
-4. Post to the track thread.
+3. Post to the track thread.
 
 ## Deliverable links
 

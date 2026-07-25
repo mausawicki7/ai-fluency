@@ -15,6 +15,22 @@ Sitemap reference: [week-01 diagram](https://claude.ai/code/artifact/2a5466af-6b
 **Total: 3 real screenshots + 1 generated hero texture.** No icon set, no
 stock photos, no personal photo — nothing in the current sitemap needs one.
 
+## Received
+
+- [elite-hero.jpg](elite-hero.jpg) — public marketing site, safe as-is.
+- [inmodesk-dashboard.jpg](inmodesk-dashboard.jpg) — demo account
+  ("Inmobiliaria Demo"), no real people, safe as-is.
+- [defensaos-panel-redacted.jpg](defensaos-panel-redacted.jpg) — the
+  original capture showed a real, active criminal case: the defendant's
+  full name, case number, prosecutor's name, and real people's names in
+  the document list. That's confidential legal data about real third
+  parties, not something to publish in a public repo regardless of
+  whose product it is. Blacked out the case header (name, charge,
+  legajo, fiscal) and the entire document-name column before saving;
+  kept everything else (counts, file types, statuses, the product UI
+  itself) visible since none of that identifies anyone. The original
+  unredacted file was deleted, not committed.
+
 ## What I need from you
 
 1. **3 screenshots** (Elite, DefensaOS, InmoDesk) — clean, cropped to the
