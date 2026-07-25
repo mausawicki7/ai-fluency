@@ -65,6 +65,14 @@ The pressure-test caught two real problems:
 
 Applied to the sitemap below and to the [diagram](https://claude.ai/code/artifact/2a5466af-6bed-4a50-b821-bd67e0947217).
 
+A second honesty check turned up during week 2's case-study interviews
+(see [week-02/frame-it-as-cases](../../week-02/frame-it-as-cases/)):
+the diagram had tagged all three Work projects "en vivo hoy," which isn't
+true for InmoDesk — its real input channel (WhatsApp) isn't connected yet,
+so it's a validated backend + public demo, not a live product. Fixed the
+diagram to show InmoDesk as "en validación" with its own status color,
+distinct from Elite/DefensaOS's "en vivo hoy."
+
 ## Sitemap (revised after the pressure-test)
 
 Main path — 2 clicks to the action:
@@ -72,7 +80,7 @@ Main path — 2 clicks to the action:
 | # | Page | Content | Why it earns its place |
 |---|---|---|---|
 | 1 | Home | Headline = the claim, one proof line, single CTA ("Hablemos") | No claim to believe without it |
-| 2 | Work | Elite / DefensaOS / InmoDesk — problem → what was built → stack → **live now** (link, not "completed") | Only page that proves the claim instead of restating it — and now proves it's alive, not built once |
+| 2 | Work | Elite / DefensaOS / InmoDesk — problem → what was built → stack → **real status** (live or validating, with link — never just "completed") | Only page that proves the claim instead of restating it — and now proves real status per project, not a blanket "it's alive" |
 | 3 | Contact | One path: email or call + a time/cost anchor ("typical projects: X weeks") + a one-line answer to "what about support later" | Closes the solo + AI-native risk objection right before the ask |
 
 Secondary — optional, footer/nav link, not a required step:
