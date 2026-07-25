@@ -30,10 +30,11 @@ breaks.
 | # | Source | Step 1-2 time | Step 3 time | Note |
 |---|---|---|---|---|
 | 1 | [Shi Heng Yi — "Enfócate en ti y guarda silencio"](https://www.youtube.com/watch?v=J9CiWjLRu2g) | 2:14 | ~15s | [run-1-note.md](run-1-note.md) / [raw extraction](run-1-notebooklm-extraction.md) |
+| 2 | [Matthew McConaughey — "Es hora de madurar"](https://www.youtube.com/watch?v=E7kJutQuim4) | 1:05 | ~15s | [run-2-note.md](run-2-note.md) / [raw extraction](run-2-notebooklm-extraction.md) |
 
 ## Pending
 
-1. Runs 2-5 with real episodes, timed the same way.
+1. Runs 3-5 with real episodes, timed the same way.
 2. Time one manual pass (no AI) for a real time-saved comparison.
 3. Compile the final walkthrough: all 5 runs + honest failure points +
    time accounting.
