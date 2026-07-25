@@ -32,14 +32,17 @@ breaks.
 | 1 | [Shi Heng Yi — "Enfócate en ti y guarda silencio"](https://www.youtube.com/watch?v=J9CiWjLRu2g) | 2:14 | ~15s | [run-1-note.md](run-1-note.md) / [raw extraction](run-1-notebooklm-extraction.md) |
 | 2 | [Matthew McConaughey — "Es hora de madurar"](https://www.youtube.com/watch?v=E7kJutQuim4) | 1:05 | ~15s | [run-2-note.md](run-2-note.md) / [raw extraction](run-2-notebooklm-extraction.md) |
 | 3 | ["Mira este video cada mañana"](https://www.youtube.com/watch?v=W_yM7OkmHgM) | 0:55 | ~15s | [run-3-note.md](run-3-note.md) / [raw extraction](run-3-notebooklm-extraction.md) — generic source, weakest signal so far |
+| 4 | [Marcus Elevation Taylor — "Debo continuar"](https://www.youtube.com/watch?v=qLHnu16XOaY) | 0:50 | ~15s | [run-4-note.md](run-4-note.md) / [raw extraction](run-4-notebooklm-extraction.md) |
+| 5 | [Coach Pain — "Cuando duele"](https://www.youtube.com/watch?v=6Di3pJGL2y4) | 0:38 | ~15s | [run-5-note.md](run-5-note.md) / [raw extraction](run-5-notebooklm-extraction.md) |
+
+All 5 runs done. 5/5 completed end to end, no failures.
 
 ## Pending
 
-1. Runs 4-5 with real episodes, timed the same way.
-2. Time one manual pass (no AI) for a real time-saved comparison.
-3. Compile the final walkthrough: all 5 runs + honest failure points +
+1. Time one manual pass (no AI) for a real time-saved comparison.
+2. Compile the final walkthrough: all 5 runs + honest failure points +
    time accounting.
-4. Post to the track thread.
+3. Post to the track thread.
 
 ## Deliverable links
 
