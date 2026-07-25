@@ -32,24 +32,21 @@ there.
 - `vite.config.js` sets `base: '/ai-fluency/'` to match the GitHub
   Pages project-page path.
 
-## Pending (needs Mau)
+- GitHub Pages enabled (Source: GitHub Actions), workflow ran green
+  after fixing two issues along the way: Pages had to be enabled before
+  `configure-pages` could find the site (first run failed on that), and
+  a Node 20-deprecation warning fixed by bumping the workflow to Node 24.
+- **Live and confirmed on a real phone**, not a resized desktop window:
+  [mobile-check.jpeg](mobile-check.jpeg).
 
-1. **Confirm the page looks right** — was running at
-   `http://localhost:5184/` during the session for a local check.
-2. **Enable GitHub Pages on the repo** (one-time, can't be done from
-   here): on GitHub.com → this repo → Settings → Pages → under "Build
-   and deployment", set **Source: GitHub Actions**. The workflow is
-   already in place; it just needs Pages turned on to actually publish.
-3. Once enabled, push (or re-run the workflow) and the site goes live at
-   `https://mausawicki7.github.io/ai-fluency/`.
-4. **Open that URL on your phone**, not just the laptop, to satisfy the
-   "confirm it's really live" criterion — screenshot it.
-5. Drop the identity kit, case studies, and content map into the Claude
+## Pending
+
+1. Drop the identity kit, case studies, and content map into the Claude
    Project (`AI Fluency — Portfolio Build`) so build week has everything
    in one place.
-6. Post to the track thread.
+2. Post to the track thread.
 
 ## Deliverable links
 
-- Live URL (after Pages is enabled):
-  `https://mausawicki7.github.io/ai-fluency/`
+- Live URL: **https://mausawicki7.github.io/ai-fluency/**
+- Mobile confirmation screenshot: [mobile-check.jpeg](mobile-check.jpeg)
