@@ -26,8 +26,9 @@ AI output versus the edited version.
   and the [week-01 sitemap diagram](https://claude.ai/code/artifact/2a5466af-6bed-4a50-b821-bd67e0947217)
   to show InmoDesk as "en validación" instead of live.
 - Full document: [framed-cases.md](framed-cases.md).
-- Pending (manual): add the voice card to the Claude Project as a
-  standing instruction, post to the track thread.
+- Voice card added to the Claude Project's standing instructions:
+  [claude-project-voice-card.jpg](claude-project-voice-card.jpg).
+- Pending: post to the track thread.
 
 ## Add the voice card to the Claude Project
 
@@ -44,5 +45,6 @@ decisiones concretas en vez de cualidades genéricas.
 ## Deliverable links
 
 - Framed cases document: [framed-cases.md](framed-cases.md)
+- Claude Project voice card screenshot: [claude-project-voice-card.jpg](claude-project-voice-card.jpg)
 - Sitemap (for reference, Work section this frames): [artifact](https://claude.ai/code/artifact/2a5466af-6bed-4a50-b821-bd67e0947217)
 - Track thread post: _(pending)_
